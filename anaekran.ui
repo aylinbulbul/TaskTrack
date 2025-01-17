@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>701</width>
+    <height>533</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 235, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="3" column="2">
+       <widget class="QLabel" name="paymentlbl">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 235, 255);
+border : 2px solid rgb(85, 0, 0);
+font:14pt &quot;Britannic Bold&quot;;
+color : rgb(85, 0, 0);
+
+</string>
+        </property>
+        <property name="text">
+         <string>Ödemeleriniz</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <layout class="QVBoxLayout" name="dateVL">
+        <item>
+         <widget class="QLabel" name="datelbl">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 235, 255);
+border : 2px solid rgb(85, 0, 0);
+font:14pt &quot;Britannic Bold&quot;;
+color : rgb(85, 0, 0);
+
+</string>
+          </property>
+          <property name="text">
+           <string>TARİH : GG/AA/YYYY</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLabel" name="tasklbl">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 235, 255);
+border : 2px solid rgb(85, 0, 0);
+font:14pt &quot;Britannic Bold&quot;;
+color : rgb(85, 0, 0);
+
+</string>
+        </property>
+        <property name="text">
+         <string>Görevleriniz</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" rowspan="3" colspan="2">
+       <layout class="QVBoxLayout" name="calenderVL">
+        <item>
+         <widget class="QCalendarWidget" name="calenderlbl">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+font:8pt &quot;Britannic Bold&quot;;
+color : rgb(85, 0, 0);
+background-color: rgb(255, 235, 255);
+border : 1px solid rgb(85, 0, 0);
+</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="notelbl">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 235, 255);
+border : 2px solid rgb(85, 0, 0);
+font:14pt &quot;Britannic Bold&quot;;
+color : rgb(85, 0, 0);
+
+
+</string>
+        </property>
+        <property name="text">
+         <string>Notlarınız</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" rowspan="3">
+       <layout class="QVBoxLayout" name="butVL">
+        <item>
+         <widget class="QPushButton" name="taskBut">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color : rgb(85, 0, 0);
+font: 87 italic 10pt &quot;Segoe UI Black&quot;;
+background-color: rgb(255, 235, 255);
+border : 2px solid rgb(85, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>Görev Ekle</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="paymentBut">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color : rgb(85, 0, 0);
+font: 87 italic 10pt &quot;Segoe UI Black&quot;;
+background-color: rgb(255, 235, 255);
+border : 2px solid rgb(85, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>Ödeme Ekle</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="noteBut">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color : rgb(85, 0, 0);
+font: 87 italic 10pt &quot;Segoe UI Black&quot;;
+background-color: rgb(255, 235, 255);
+border : 2px solid rgb(85, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>Not Ekle</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="4" column="1" rowspan="2">
+       <widget class="QListWidget" name="listWidget">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 235, 255);
+font: 87 8pt &quot;Arial Black&quot;;
+border : 2px solid rgb(85, 0, 0);
+
+</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QListWidget" name="listWidget_3">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 235, 255);
+font: 87 8pt &quot;Arial Black&quot;;
+border : 2px solid rgb(85, 0, 0);
+
+</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2" rowspan="2">
+       <widget class="QListWidget" name="listWidget_2">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 235, 255);
+font: 87 8pt &quot;Arial Black&quot;;
+border : 2px solid rgb(85, 0, 0);
+
+</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>701</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

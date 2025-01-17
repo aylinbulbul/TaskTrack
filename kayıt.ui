@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>373</width>
+    <height>501</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 235, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="userRegFormVL">
+      <item>
+       <widget class="QLabel" name="userRegFormlbl">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color : rgb(85, 0, 0);
+font: 87 italic 14pt &quot;Segoe UI Black&quot;;
+background-color: rgb(255, 235, 255);
+border : 2px solid rgb(85, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Kullanıcı Kayıt Formu</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QVBoxLayout" name="userNameVL">
+      <item>
+       <widget class="QLabel" name="userNamelbl">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 87 10pt &quot;Arial Black&quot;;
+background-color: rgb(255, 235, 255);
+border : 2px solid rgb(85, 0, 0);
+color : rgb(85, 0, 0)
+</string>
+        </property>
+        <property name="text">
+         <string>Kullanıcı Adı :</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <layout class="QVBoxLayout" name="userNameVL_2">
+      <item>
+       <widget class="QLineEdit" name="userNamelbl_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 235, 255);
+font: 87 8pt &quot;Segoe UI Black&quot;;
+border : 2px solid rgb(85, 0, 0);
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="0">
+     <layout class="QVBoxLayout" name="mailVL">
+      <item>
+       <widget class="QLabel" name="maillbl">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 87 10pt &quot;Arial Black&quot;;
+background-color: rgb(255, 235, 255);
+border : 2px solid rgb(85, 0, 0);
+color : rgb(85, 0, 0)
+</string>
+        </property>
+        <property name="text">
+         <string>E-Posta Adresi :</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="0">
+     <layout class="QVBoxLayout" name="mailVL_2">
+      <item>
+       <widget class="QLineEdit" name="maillbl_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 235, 255);
+font: 87 8pt &quot;Segoe UI Black&quot;;
+border : 2px solid rgb(85, 0, 0);
+
+</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="5" column="0">
+     <layout class="QVBoxLayout" name="passwordVL">
+      <item>
+       <widget class="QLabel" name="passwordlbl">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 87 10pt &quot;Arial Black&quot;;
+background-color: rgb(255, 235, 255);
+border : 2px solid rgb(85, 0, 0);
+color : rgb(85, 0, 0)
+</string>
+        </property>
+        <property name="text">
+         <string>Şifre :</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="6" column="0">
+     <layout class="QVBoxLayout" name="passwordVL_2">
+      <item>
+       <widget class="QLineEdit" name="passwordlbl_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 235, 255);
+font: 87 8pt &quot;Segoe UI Black&quot;;
+border : 2px solid rgb(85, 0, 0);
+
+</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="7" column="0">
+     <layout class="QVBoxLayout" name="registerVL">
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color : rgb(85, 0, 0);
+font: 87 10pt &quot;Arial Black&quot;;
+background-color : rgb(203, 213, 214)</string>
+        </property>
+        <property name="text">
+         <string>Kayıt Ol</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>373</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
